@@ -1,12 +1,125 @@
-# React + Vite
+# Pokémon Explorer – React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+The **Pokémon Explorer** is a responsive frontend application built using **React** that allows users to search and explore detailed information about Pokémon. The application fetches data from an **external public API hosted on another server** and displays Pokémon details such as images, types, and abilities in a clean and intuitive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project mainly focuses on understanding **API integration in React**, data fetching, state management, and implementing **search and sorting functionality** for better user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Objectives of the Project
+
+* To learn how to consume APIs hosted on external servers
+* To build a responsive and interactive React application
+* To implement search and sorting features
+* To understand component-based architecture in React
+* To work with real-time data fetched from APIs
+
+---
+
+## 🛠 Technologies Used
+
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **REST API** (External Pokémon API)
+
+---
+
+## 🔗 API Integration
+
+* Data is fetched from a **public Pokémon REST API**
+* API is hosted on an **external server**
+* React hooks such as **useEffect** and **useState** are used for:
+
+  * Fetching data
+  * Managing API responses
+  * Handling loading and error states
+
+---
+
+## 🌐 Live Demo
+
+This React application is hosted using **GitHub Pages** and can be accessed at:
+
+🔗 [https://omkark-16.github.io/poke-explorer/](https://omkark-16.github.io/poke-explorer/)
+
+---
+
+## ✨ Features
+
+* Search Pokémon by name
+* Sort Pokémon based on different criteria
+* Display Pokémon image, type, and abilities
+* Responsive design for all screen sizes
+* Clean and user-friendly UI
+* Real-time data fetched from API
+
+---
+
+## 📂 Project Folder Structure
+
+```
+pokemon-explorer/
+│── public/
+│── src/
+│   ├── components/
+│   ├── services/        # API calls
+│   ├── pages/
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+│── package.json
+│── README.md
+```
+
+---
+
+## ⚙️ Project Setup Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/pokemon-explorer.git
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the Application
+
+```bash
+npm start
+```
+
+The application will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## ✅ Advantages of the Project
+
+* Strong understanding of API consumption in React
+* Improves frontend data handling skills
+* Real-world use case of REST APIs
+* Beginner to intermediate level React project
+
+---
+
+## 🚀 Future Enhancements
+
+* Add pagination or infinite scrolling
+* Add Pokémon comparison feature
+* Improve UI with animations
+* Add caching for API responses
+
+---
+ 
